@@ -1,4 +1,4 @@
-# my-first-web
+# html-css-website
 This is my HTML CSS website project from theodinproject.com <br />
 
 Boats image (source: https://pixabay.com/photos/boats-sea-wales-ocean-uk-island-7309850/) <br />
