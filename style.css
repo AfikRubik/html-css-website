@@ -56,11 +56,12 @@ header {
   width: 45%;
 }
 
-h2 {
-  margin-bottom: 0.73em;
+.banner-info h2 {
+  margin-bottom: 0.5em;
+  font-size: 3.6em;
 }
 
-p {
+.banner-info p {
   margin-bottom: 0.53em;
 }
 
@@ -99,6 +100,7 @@ a:hover.button {
 }
 
 .image-grid-container {
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -126,4 +128,27 @@ a:hover.button {
 .image-list span {
   display: block;
   margin-top: 10px;
+}
+
+.quote {
+  background-color: #ecf0f1;
+  padding: 60px;
+}
+
+.quote .quote-canvas {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.quote-canvas .quote-message {
+  text-align: justify;
+  font-size: 150%;
+  font-style: italic;
+}
+
+.quote-canvas .quote-by {
+  font-size: 110%;
+  margin-top: 15px;
+  text-align: right;
+  font-weight: bold;
 }
