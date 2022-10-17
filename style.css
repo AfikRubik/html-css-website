@@ -5,6 +5,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* For debugging */
+/* body * {
+  border: black 0.5px solid;
+} */
+
 header {
   padding: 20px;
   background: #34495e;
@@ -51,6 +56,32 @@ header {
   width: 45%;
 }
 
+h2 {
+  margin-bottom: 0.73em;
+}
+
+p {
+  margin-bottom: 0.53em;
+}
+
+a.button {
+  display: block;
+  margin: 15px 0;
+  width: fit-content;
+  background-color: #3498db;
+  font-size: 105%;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+}
+
+a:hover.button {
+  background-color: #2980b9;
+}
+
 .image-container {
   width: 45%;
   display: flex;
@@ -60,4 +91,39 @@ header {
 
 .image-container img {
   max-width: 100%;
+}
+
+.image-grid {
+  text-align: center;
+  padding: 60px 60px;
+}
+
+.image-grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px 70px;
+  gap: 30px;
+}
+
+.image-list {
+  width: 200px;
+}
+
+.image-canvas {
+  border-radius: 20px;
+  border: #2980b9 solid 5px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image-canvas img {
+  height: 250px;
+  margin: -20px -100px;
+}
+
+.image-list span {
+  display: block;
+  margin-top: 10px;
 }
