@@ -185,3 +185,10 @@ a:hover.button {
 .call-canvas .sign-up-button a:hover {
   background-color: #2980b9;
 }
+
+footer {
+  background-color: #2d3436;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
